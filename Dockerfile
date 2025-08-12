@@ -1,4 +1,4 @@
-FROM node:its-apline
+FROM node:its-alpine
 WORKDIR /app
 COPY . .
 RUN yarn install --production
